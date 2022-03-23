@@ -3,6 +3,8 @@
 
 `src\main\java\rsLab4\SendMessageServlet.java` - сервлет, который отправляет сообщение в заданную очередь (queue) используя заданный ConnectionFactory.
 
+Отправка сообщения: в браузере открыть http://localhost:8080/rsLab4/SendMessageServlet?text=TEXT, где `TEXT` – текст сообщения.
+
 Запускал на сервере WildFly 26.0.1. Должен подойти любой сервер, реализующий Java EE в полном объеме. 
 
 Источники:
